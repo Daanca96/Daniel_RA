@@ -1,0 +1,68 @@
+@font-face{
+  font-family: "MoonTime";
+  src: url("FontsFree-Net-MoonTime-Regular-1.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: "Rashavine";
+  src: url("FontsFree-Net-Rashavine-3z8e8-2.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: "Fentry";
+  src: url("FontsFree-Net-Fentry-w1xzP-1.ttf") format("truetype");
+  font-weight: bold;
+}
+
+/*
+
+.backg
+{ 
+  background-attachment:fixed;
+    background-color: #645862;
+    background-image:  url("images/bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    cursor: default;
+    padding: 280px 0 120px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.backg_Perfil
+{ 
+  background-attachment:fixed;
+    background-color: #645862;
+    background-image:  url("images/perfil.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    cursor: default;
+    padding: 10px 0 10px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.backg_Fondo2
+{ 
+  background-attachment:fixed;
+    background-color: #645862;
+    background-image:  url("images/Fondo2.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    cursor: default;
+    padding: 10px 0 10px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+*/
