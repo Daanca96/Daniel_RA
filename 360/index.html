@@ -3,9 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>360&deg; Image</title>
-    <link rel='manifest' href='/manifest.webmanifest'>
+    
     <meta name="description" content="360&deg; Image - A-Frame">
     <script src="aframe-master.js"></script>
+    <link rel="manifest" href="manifest.json" />
+    
+    <script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+   </script>
+    
   </head>
   <body>
     <a-scene>
@@ -15,11 +23,7 @@
               rotation="0 15 0"></a-text>
     </a-scene>
     
-<script type="module">
-   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-   const el = document.createElement('pwa-update');
-   document.body.appendChild(el);
-</script>
+
     
   </body>
 </html>
