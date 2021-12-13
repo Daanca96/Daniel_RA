@@ -1,0 +1,21 @@
+{
+ “name” : “daany”,
+ “short_name” : “daany”,
+ “description” : “cerebro 3d”,
+ “start_url” : “https://daanca96.github.io/Daniel_RA/360/",
+ “lang” : “Spanish”,
+ “display” : “standalone”,
+ “theme_color”: “#3d3d3d”,
+ “background_color”: “#f2f2f2”,
+ “orientation” : “portrait”,
+ “icons”: [ {
+ “src”: “llave.png”,
+ “sizes”: “192x192”,
+ “type”: “image/png”
+ },
+ {
+ “src”: “llave.png”,
+ “sizes”: “512x512”,
+ “type”: “image/png”
+ }]
+ }
