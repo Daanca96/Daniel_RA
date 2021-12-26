@@ -1,47 +1,5 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <title>Model Viewer AR - VR</title>
-  <meta name="description" content="Model Viewer (VR / AR) • A-Frame">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-  <script src="info-message.js"></script>
-  <script src="https://unpkg.com/aframe-extras@3.3.0/dist/aframe-extras.min.js"></script>
-  <script src="hide-on-enter-ar.js"></script>
-  <script src="ar-shadows.js"></script>
-  <script src="ar-hit-test.js"></script>
-  <script src="model-viewer.js"></script>
-  <script src="background-gradient.js"></script>
-</head>
-<body>
-
-<a-scene
-  renderer="colorManagement: true;"
-  info-message="htmlSrc: #messageText"
-  model-viewer="gltfModel: #triceratops; title: Triceratops">
-  <a-assets>
-    <!--
-      Model source: https://sketchfab.com/3d-models/triceratops-d16aabe33dc24f8ab37e3df50c068265
-      Model author: https://sketchfab.com/VapTor
-      Model license: Sketcfab Standard
-    -->
-
-    <a-asset-item 
-                    id="triceratops"
-                    src="assets/submarino.glb"
-                    response-type="arraybuffer"
-                    crossorigin="anonymous"
-                ></a-asset-item>
-
-
-
-    <a-asset-item id="reticle"
-      src="https://cdn.aframe.io/examples/ar/models/reticle/reticle.gltf"
-      response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
-
-    <img id="shadow" src="https://cdn.glitch.com/20600112-c04b-492c-8190-8a5ccc06f37d%2Fshadow.png?v=1606338852399"></img>
-    <a-asset-item id="messageText" src="message.html"></a-asset-item>
-  </a-assets>
-</a-scene>
-</body>
-</html>
+<script>
+<!--
+document.write(unescape("%3C%21DOCTYPE%20html%3E%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%3Ctitle%3EModel%20Viewer%20AR%20-%20VR%3C/title%3E%0A%20%20%3Cmeta%20name%3D%22description%22%20content%3D%22Model%20Viewer%20%28VR%20/%20AR%29%20%u2022%20A-Frame%22%3E%0A%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1.0%2C%20maximum-scale%3D1.0%2C%20user-scalable%3Dno%22%20/%3E%0A%20%20%3Cscript%20src%3D%22https%3A//aframe.io/releases/1.2.0/aframe.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22info-message.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22https%3A//unpkg.com/aframe-extras@3.3.0/dist/aframe-extras.min.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22hide-on-enter-ar.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22ar-shadows.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22ar-hit-test.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22model-viewer.js%22%3E%3C/script%3E%0A%20%20%3Cscript%20src%3D%22background-gradient.js%22%3E%3C/script%3E%0A%3C/head%3E%0A%3Cbody%3E%0A%0A%3Ca-scene%0A%20%20renderer%3D%22colorManagement%3A%20true%3B%22%0A%20%20info-message%3D%22htmlSrc%3A%20%23messageText%22%0A%20%20model-viewer%3D%22gltfModel%3A%20%23triceratops%3B%20title%3A%20Triceratops%22%3E%0A%20%20%3Ca-assets%3E%0A%20%20%20%20%3C%21--%0A%20%20%20%20%20%20Model%20source%3A%20https%3A//sketchfab.com/3d-models/triceratops-d16aabe33dc24f8ab37e3df50c068265%0A%20%20%20%20%20%20Model%20author%3A%20https%3A//sketchfab.com/VapTor%0A%20%20%20%20%20%20Model%20license%3A%20Sketcfab%20Standard%0A%20%20%20%20--%3E%0A%0A%20%20%20%20%3Ca-asset-item%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20id%3D%22triceratops%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20src%3D%22assets/submarino.glb%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20response-type%3D%22arraybuffer%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20crossorigin%3D%22anonymous%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3E%3C/a-asset-item%3E%0A%0A%0A%0A%20%20%20%20%3Ca-asset-item%20id%3D%22reticle%22%0A%20%20%20%20%20%20src%3D%22https%3A//cdn.aframe.io/examples/ar/models/reticle/reticle.gltf%22%0A%20%20%20%20%20%20response-type%3D%22arraybuffer%22%20crossorigin%3D%22anonymous%22%3E%3C/a-asset-item%3E%0A%0A%20%20%20%20%3Cimg%20id%3D%22shadow%22%20src%3D%22https%3A//cdn.glitch.com/20600112-c04b-492c-8190-8a5ccc06f37d%252Fshadow.png%3Fv%3D1606338852399%22%3E%3C/img%3E%0A%20%20%20%20%3Ca-asset-item%20id%3D%22messageText%22%20src%3D%22message.html%22%3E%3C/a-asset-item%3E%0A%20%20%3C/a-assets%3E%0A%3C/a-scene%3E%0A%3C/body%3E%0A%3C/html%3E"));
+//-->
+</script>
